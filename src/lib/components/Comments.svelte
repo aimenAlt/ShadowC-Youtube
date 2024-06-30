@@ -11,8 +11,4 @@ import CommentsCard from "$lib/components/cards/CommentCard.svelte";
     <CommentsCard />
     <CommentsCard />
     <CommentsCard />
-    <CommentsCard />
-    <CommentsCard />
-    <CommentsCard />
-    <CommentsCard />
 </div>
