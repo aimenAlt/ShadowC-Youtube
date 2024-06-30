@@ -1,4 +1,6 @@
 <script lang="ts">
+    import ChannelInfo from "$lib/components/ChannelInfo.svelte";
+
     let videoId = '';
 </script>
 
@@ -18,7 +20,7 @@
     </h1>
     <div class="flex flex-col md:flex-row gap-5 items-start" >
         <div>
-
+            <ChannelInfo />
         </div>
     </div>
 </div>
