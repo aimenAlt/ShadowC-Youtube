@@ -20,7 +20,7 @@
         svelte rules!!!
     </h1>
     <div class="flex flex-col md:flex-row gap-5 items-start" >
-        <div>
+        <div class="flex-1">
             <ChannelInfo />
             <VideoDescription />
             <Comments />
