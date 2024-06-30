@@ -7,7 +7,6 @@
     let videoId = '';
 </script>
 
-<!--
 <iframe
         class="w-full h-[480px]"
         src={`https://www.youtube.com/embed/${videoId}`}
@@ -15,7 +14,6 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
 />
--->
 
 <div class="max-w-[1150px] px-2 w-full mx-auto">
     <h1 class="text-xl font-semibold capitalize">
