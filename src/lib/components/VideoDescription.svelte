@@ -5,7 +5,7 @@
 <div
     class:h-fit={showMore}
     class:h-[105px]={!showMore}
-    class=" bg-gray-200 mb-5 group relative overflow-hidden text-xs rounded-lg hover:bg-gray-300 p-3">
+    class=" bg-gray-200 mb-5 group relative overflow-hidden text-sm rounded-lg hover:bg-gray-300 p-3">
     <div class="font-medium mb-2">
         <span>10,000 views . 20-11-2021</span>
     </div>
