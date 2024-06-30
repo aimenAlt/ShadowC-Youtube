@@ -14,7 +14,9 @@
                 class="cursor-pointer p-3 rounded-full hover:bg-gray-300"
                 alt=""
         />
-        <img src="/icons/ytLogo.svg" alt="">
+        <a href="/">
+            <img src="/icons/ytLogo.svg" alt="">
+        </a>
     </div>
     <SearchBar />
     <div class="md:flex hidden gap-3 items-center">

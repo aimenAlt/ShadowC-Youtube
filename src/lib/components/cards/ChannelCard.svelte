@@ -1,4 +1,4 @@
-<div class="flex gap-4 items-center w-full">
+<a href="/" class="flex gap-4 items-center w-full">
     <div class="max-w-[360px] w-full flex items-center justify-center">
         <img src="/avatar.png" class="w-136px h-[136px] rounded-full" alt="">
     </div>
@@ -14,4 +14,4 @@
     <button class="text-white bg-black text-sm ml-auto font-medium rounded-full py-2 px-4">
         Subscribe
     </button>
-</div>
+</a>
