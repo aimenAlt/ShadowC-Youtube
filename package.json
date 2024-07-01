@@ -35,10 +35,11 @@
 	"dependencies": {
 		"axios": "^1.5.0",
 		"bits-ui": "^0.5.7",
-		"clsx": "^2.0.0",
+		"clsx": "^2.1.1",
 		"lucide-svelte": "^0.274.0",
 		"nprogress": "^0.2.0",
+		"shadcn-svelte": "^0.10.7",
 		"tailwind-merge": "^1.14.0",
-		"tailwind-variants": "^0.1.14"
+		"tailwind-variants": "^0.1.20"
 	}
 }

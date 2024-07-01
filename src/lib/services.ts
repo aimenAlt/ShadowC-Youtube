@@ -15,9 +15,9 @@ const axios = Axios.create({
   }
 });
 
-const activate = false;
+const activateHome = false;
 export const getHome = async () => {
-  if (!activate) {
+  if (!activateHome) {
     console.log('not activated');
     return mockHome.contents;
   }
@@ -33,3 +33,27 @@ export const getHome = async () => {
     });
   }
 };
+
+const activateSearch = true;
+
+export const getSearch = async ({query, filters}: {query: string, filter: string}) => {
+  if (!activateSearch) {
+    console.log('search not activated');
+    return mockHome.contents;
+  }
+
+  try {
+    console.log('calling search in services.ts');
+    const result = await axios('search/', {
+      params: {
+        q: query,
+        cursor: filters
+      }
+    });
+    return result.data;
+  } catch (e) {
+    throw error(500, {
+      message: 'an error occurred when requesting search results.'
+    });
+  }
+}
